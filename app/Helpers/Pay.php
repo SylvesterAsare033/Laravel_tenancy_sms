@@ -27,6 +27,6 @@ class Pay extends Qs
 
     public static function getCurrencyUnit(): string
     {
-        return 'TSh';
+        return 'GHS';
     }
 }

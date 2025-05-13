@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="form-group row">
-                        <label for="amount" class="col-lg-3 col-form-label font-weight-semibold">Amount (TSh) </label>
+                        <label for="amount" class="col-lg-3 col-form-label font-weight-semibold">Amount (GHS) </label>
                         <div class="col-lg-9">
                             <input class="form-control" name="amount" value="{{ $payment->amount }}" id="amount" type="text">
                         </div>

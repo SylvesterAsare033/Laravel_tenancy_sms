@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="form-group row">
-                        <label for="amount" class="col-lg-3 col-form-label font-weight-semibold">Amount (TSh) <span class="text-danger">*</span></label>
+                        <label for="amount" class="col-lg-3 col-form-label font-weight-semibold">Amount (GHS) <span class="text-danger">*</span></label>
                         <div class="col-lg-9">
                             <input class="form-control" value="{{ old('amount') }}" required name="amount" id="amount" type="number">
                         </div>
