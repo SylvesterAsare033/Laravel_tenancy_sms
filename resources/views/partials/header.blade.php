@@ -8,14 +8,6 @@
         <div class="header-elements d-none">
             <div class="d-flex justify-content-center">
 
-                <a href="javascript:;" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                    <small>
-                        <span class='text-default'>School Management System</span><br />
-                        <i><span class='text-default'>Source:</span> <a target='_blank' href='https://github.com/rayusamBoy/Laravel_tenancy_sms'>Laravel_tenancy_sms</a></i><br />
-                    </small>" class="btn btn-link btn-float text-default">
-                    <i class="material-symbols-rounded text-primary">info</i> <span class="d-none d-sm-block">About</span>
-                </a>
-
                 @if(Usr::tenancyInitilized())
                 @if(Qs::userIsSuperAdmin())
                 <a href="{{ route('analytics.index') }}" class="btn btn-link btn-float text-default"><i class="material-symbols-rounded text-primary">analytics</i> <span class="d-none d-sm-block">Analytics</span></a>
